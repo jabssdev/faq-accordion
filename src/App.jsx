@@ -1,7 +1,11 @@
+import { FaqContainer } from "./components/FaqContainer";
+import bgMobile from "./assets/images/background-pattern-mobile.svg";
+
 export const App = () => {
 	return (
-		<>
-			<h1>App Component</h1>
-		</>
+		<section>
+			<img src={bgMobile} alt="Header background mobile" />
+			<FaqContainer />
+		</section>
 	);
 };
