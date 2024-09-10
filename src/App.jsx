@@ -4,7 +4,7 @@ import bgMobile from "./assets/images/background-pattern-mobile.svg";
 export const App = () => {
 	return (
 		<section>
-			<img src={bgMobile} alt="Header background mobile" />
+			<img className="mb-5" src={bgMobile} alt="Header background mobile" />
 			<FaqContainer />
 		</section>
 	);
